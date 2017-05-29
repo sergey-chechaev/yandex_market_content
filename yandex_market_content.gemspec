@@ -5,7 +5,7 @@ require 'yandex_market_content/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "yandex_market_content"
-  spec.version       = YandexMarketContent::VERSION
+  spec.version       = Yandex::Market::Content::VERSION
   spec.authors       = ["Sergey Chechaev"]
   spec.email         = ["2netme@gmail.com"]
 
