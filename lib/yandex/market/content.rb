@@ -1,4 +1,6 @@
 require 'faraday'
+require 'json'
+require 'hashie'
 require 'yandex/market/content/version'
 require 'yandex/market/content/configuration'
 require 'yandex/market/content/client'

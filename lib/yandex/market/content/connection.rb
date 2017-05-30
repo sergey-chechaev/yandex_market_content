@@ -24,14 +24,14 @@ module Yandex
       private
 
       def request(method, path, data)
-        require 'pry'; binding.pry
         response = call.send(method) do |req|
           req.url path
           req.headers['Content-Type'] = 'application/json'
           req.headers['Authorization'] = authorization_token(data)
         end
 
-        response.body
+        response = JSON.parse(response.body)
+        Hashie::Mash.new(response)
       end
 
       def authorization_token(option)
