@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.content.market.yandex.ru/v2.1.0/geo/suggest?name_part=%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - token
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 31 May 2017 13:32:47 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      X-Request-Id:
+      - 01h05315414938a
+      X-Market-Req-Id:
+      - 1496237567037/bd6bafb85d87e2c0be493c088b7922e2
+      X-Region-Id:
+      - "-1"
+      X-Ratelimit-Method-Limit:
+      - '10'
+      X-Ratelimit-Method-Remaining:
+      - '9'
+      X-Ratelimit-Method-Until:
+      - Wed, 31 May 2017 13:32:48 GMT
+      X-Ratelimit-Global-Limit:
+      - '2'
+      X-Ratelimit-Global-Remaining:
+      - '1'
+      X-Ratelimit-Global-Until:
+      - Wed, 31 May 2017 13:32:48 GMT
+      X-Ratelimit-Daily-Limit:
+      - '1000000'
+      X-Ratelimit-Daily-Remaining:
+      - '999968'
+      X-Ratelimit-Daily-Until:
+      - Thu, 01 Jun 2017 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJjb250ZXh0Ijp7InJlZ2lvbiI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQvtGB
+        0YHQuNGPIiwidHlwZSI6IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMSwiY291
+        bnRyeSI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQvtGB0YHQuNGPIiwidHlwZSI6
+        IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMX19LCJjdXJyZW5jeSI6eyJpZCI6
+        IlJVUiIsIm5hbWUiOiLRgNGD0LEuIn0sInBhZ2UiOnsibnVtYmVyIjoxLCJj
+        b3VudCI6MTAsInRvdGFsIjoxfSwiaWQiOiIxNDk2MjM3NTY3MDM3L2JkNmJh
+        ZmI4NWQ4N2UyYzBiZTQ5M2MwODhiNzkyMmUyIiwidGltZSI6IjIwMTctMDUt
+        MzFUMTY6MzI6NDcuMDQ1KzAzOjAwIiwibWFya2V0VXJsIjoiaHR0cHM6Ly9t
+        YXJrZXQueWFuZGV4LnJ1P3BwPTEwMDEmY2xpZD0yMjk4MzgwJmRpc3RyX3R5
+        cGU9NyJ9LCJzdWdnZXN0cyI6W3siaWQiOjIxMywibmFtZSI6ItCc0L7RgdC6
+        0LLQsCIsInR5cGUiOiJDSVRZIiwiY2hpbGRDb3VudCI6MCwiZnVsbE5hbWUi
+        OiLQnNC+0YHQutCy0LAgKNCc0L7RgdC60LLQsCDQuCDQnNC+0YHQutC+0LLR
+        gdC60LDRjyDQvtCx0LvQsNGB0YLRjCkifV0sInN0YXR1cyI6Ik9LIn0=
+    http_version: 
+  recorded_at: Wed, 31 May 2017 13:32:47 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,78 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.content.market.yandex.ru/v2.1.0/geo/regions/213
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - token
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 31 May 2017 10:49:20 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      X-Request-Id:
+      - 07h053154005c2b
+      X-Market-Req-Id:
+      - 1496227760758/87dd36b14cbf78c4a8190296ec4c08c1
+      X-Region-Id:
+      - "-1"
+      X-Ratelimit-Method-Limit:
+      - '10'
+      X-Ratelimit-Method-Remaining:
+      - '9'
+      X-Ratelimit-Method-Until:
+      - Wed, 31 May 2017 10:49:21 GMT
+      X-Ratelimit-Global-Limit:
+      - '2'
+      X-Ratelimit-Global-Remaining:
+      - '1'
+      X-Ratelimit-Global-Until:
+      - Wed, 31 May 2017 10:49:21 GMT
+      X-Ratelimit-Daily-Limit:
+      - '1000000'
+      X-Ratelimit-Daily-Remaining:
+      - '999989'
+      X-Ratelimit-Daily-Until:
+      - Thu, 01 Jun 2017 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJjb250ZXh0Ijp7InJlZ2lvbiI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQvtGB
+        0YHQuNGPIiwidHlwZSI6IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMSwiY291
+        bnRyeSI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQvtGB0YHQuNGPIiwidHlwZSI6
+        IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMX19LCJjdXJyZW5jeSI6eyJpZCI6
+        IlJVUiIsIm5hbWUiOiLRgNGD0LEuIn0sImlkIjoiMTQ5NjIyNzc2MDc1OC84
+        N2RkMzZiMTRjYmY3OGM0YTgxOTAyOTZlYzRjMDhjMSIsInRpbWUiOiIyMDE3
+        LTA1LTMxVDEzOjQ5OjIwLjc2NCswMzowMCIsIm1hcmtldFVybCI6Imh0dHBz
+        Oi8vbWFya2V0LnlhbmRleC5ydT9wcD0xMDAxJmNsaWQ9MjI5ODM4MCZkaXN0
+        cl90eXBlPTcifSwicmVnaW9uIjp7ImlkIjoyMTMsIm5hbWUiOiLQnNC+0YHQ
+        utCy0LAiLCJ0eXBlIjoiQ0lUWSIsImNoaWxkQ291bnQiOjE0LCJjb3VudHJ5
+        Ijp7ImlkIjoyMjUsIm5hbWUiOiLQoNC+0YHRgdC40Y8iLCJ0eXBlIjoiQ09V
+        TlRSWSIsImNoaWxkQ291bnQiOjExfX0sInN0YXR1cyI6Ik9LIn0=
+    http_version: 
+  recorded_at: Wed, 31 May 2017 10:49:20 GMT
+recorded_with: VCR 3.0.3

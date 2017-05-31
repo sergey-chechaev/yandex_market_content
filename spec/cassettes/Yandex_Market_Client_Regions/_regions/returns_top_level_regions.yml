@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.content.market.yandex.ru/v2.1.0/geo/regions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - token
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 31 May 2017 09:56:02 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      X-Request-Id:
+      - 07h053153faccfc
+      X-Market-Req-Id:
+      - 1496224562197/3a4e26d43919ab45367608b19f45e2cc
+      X-Region-Id:
+      - "-1"
+      X-Ratelimit-Method-Limit:
+      - '10'
+      X-Ratelimit-Method-Remaining:
+      - '9'
+      X-Ratelimit-Method-Until:
+      - Wed, 31 May 2017 09:56:03 GMT
+      X-Ratelimit-Global-Limit:
+      - '2'
+      X-Ratelimit-Global-Remaining:
+      - '1'
+      X-Ratelimit-Global-Until:
+      - Wed, 31 May 2017 09:56:03 GMT
+      X-Ratelimit-Daily-Limit:
+      - '1000000'
+      X-Ratelimit-Daily-Remaining:
+      - '999995'
+      X-Ratelimit-Daily-Until:
+      - Thu, 01 Jun 2017 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdGF0dXMiOiJPSyIsImNvbnRleHQiOnsicmVnaW9uIjp7ImlkIjoyMjUs
+        Im5hbWUiOiLQoNC+0YHRgdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxk
+        Q291bnQiOjExLCJjb3VudHJ5Ijp7ImlkIjoyMjUsIm5hbWUiOiLQoNC+0YHR
+        gdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjExfX0sImN1
+        cnJlbmN5Ijp7ImlkIjoiUlVSIiwibmFtZSI6ItGA0YPQsS4ifSwicGFnZSI6
+        eyJudW1iZXIiOjEsImNvdW50Ijo0LCJ0b3RhbCI6MX0sImlkIjoiMTQ5NjIy
+        NDU2MjE5Ny8zYTRlMjZkNDM5MTlhYjQ1MzY3NjA4YjE5ZjQ1ZTJjYyIsInRp
+        bWUiOiIyMDE3LTA1LTMxVDEyOjU2OjAyLjIzNCswMzowMCIsIm1hcmtldFVy
+        bCI6Imh0dHBzOi8vbWFya2V0LnlhbmRleC5ydT9wcD0xMDAxJmNsaWQ9MjI5
+        ODM4MCZkaXN0cl90eXBlPTcifSwicmVnaW9ucyI6W3siaWQiOjIyNSwibmFt
+        ZSI6ItCg0L7RgdGB0LjRjyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3Vu
+        dCI6MTEsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7RgdGB0LjR
+        jyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fSx7ImlkIjox
+        ODcsIm5hbWUiOiLQo9C60YDQsNC40L3QsCIsInR5cGUiOiJDT1VOVFJZIiwi
+        Y2hpbGRDb3VudCI6NywiY291bnRyeSI6eyJpZCI6MTg3LCJuYW1lIjoi0KPQ
+        utGA0LDQuNC90LAiLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjd9
+        fSx7ImlkIjoxNTksIm5hbWUiOiLQmtCw0LfQsNGF0YHRgtCw0L0iLCJ0eXBl
+        IjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjE3LCJjb3VudHJ5Ijp7ImlkIjox
+        NTksIm5hbWUiOiLQmtCw0LfQsNGF0YHRgtCw0L0iLCJ0eXBlIjoiQ09VTlRS
+        WSIsImNoaWxkQ291bnQiOjE3fX0seyJpZCI6MTQ5LCJuYW1lIjoi0JHQtdC7
+        0LDRgNGD0YHRjCIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6OCwi
+        Y291bnRyeSI6eyJpZCI6MTQ5LCJuYW1lIjoi0JHQtdC70LDRgNGD0YHRjCIs
+        InR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6OH19XX0=
+    http_version: 
+  recorded_at: Wed, 31 May 2017 09:56:02 GMT
+recorded_with: VCR 3.0.3
