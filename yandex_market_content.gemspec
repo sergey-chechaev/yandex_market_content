@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Сontent Yandex API Ruby gem}
   spec.description   = %q{The content API allows site owners, service developers and web-analytics analysts to extract information about products on the Yandex.Market. The API provides data from model cards (including prices, descriptions, photos and reviews), as well as complete information about stores and the availability of goods in them.}
-  spec.homepage      = "https://github.com/sergey-chechaev/yandex_market_content.git"
+  spec.homepage      = "https://github.com/sergey-chechaev/yandex_market_content"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
