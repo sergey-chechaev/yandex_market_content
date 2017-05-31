@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = "yandex_market_content"
   spec.version       = Yandex::Market::Content::VERSION
   spec.authors       = ["Sergey Chechaev"]
-  spec.email         = ["2netme@gmail.com"]
+  spec.email         = ["kompotdrinker@gmail.com"]
 
-  spec.summary       = %q{bla}
-  spec.description   = %q{bla}
+  spec.summary       = %q{Сontent Yandex API Ruby gem}
+  spec.description   = %q{The content API allows site owners, service developers and web-analytics analysts to extract information about products on the Yandex.Market. The API provides data from model cards (including prices, descriptions, photos and reviews), as well as complete information about stores and the availability of goods in them.}
   spec.homepage      = "https://github.com/sergey-chechaev/yandex_market_content"
   spec.license       = "MIT"
 
