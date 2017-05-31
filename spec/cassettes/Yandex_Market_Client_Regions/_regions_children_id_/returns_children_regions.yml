@@ -1,0 +1,115 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.content.market.yandex.ru/v2.1.0/geo/regions/3/children
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.1
+      Content-Type:
+      - application/json
+      Authorization:
+      - token
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Wed, 31 May 2017 13:19:18 GMT
+      Content-Type:
+      - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=120
+      X-Request-Id:
+      - 02d05315411feaf
+      X-Market-Req-Id:
+      - 1496236758016/c41425c123d57cfadad01c008f754ab9
+      X-Region-Id:
+      - "-1"
+      X-Ratelimit-Method-Limit:
+      - '10'
+      X-Ratelimit-Method-Remaining:
+      - '9'
+      X-Ratelimit-Method-Until:
+      - Wed, 31 May 2017 13:19:19 GMT
+      X-Ratelimit-Global-Limit:
+      - '2'
+      X-Ratelimit-Global-Remaining:
+      - '1'
+      X-Ratelimit-Global-Until:
+      - Wed, 31 May 2017 13:19:19 GMT
+      X-Ratelimit-Daily-Limit:
+      - '1000000'
+      X-Ratelimit-Daily-Remaining:
+      - '999972'
+      X-Ratelimit-Daily-Until:
+      - Thu, 01 Jun 2017 00:00:00 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdGF0dXMiOiJPSyIsImNvbnRleHQiOnsicmVnaW9uIjp7ImlkIjoyMjUs
+        Im5hbWUiOiLQoNC+0YHRgdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxk
+        Q291bnQiOjExLCJjb3VudHJ5Ijp7ImlkIjoyMjUsIm5hbWUiOiLQoNC+0YHR
+        gdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjExfX0sImN1
+        cnJlbmN5Ijp7ImlkIjoiUlVSIiwibmFtZSI6ItGA0YPQsS4ifSwicGFnZSI6
+        eyJudW1iZXIiOjEsImNvdW50IjoxMCwidG90YWwiOjJ9LCJpZCI6IjE0OTYy
+        MzY3NTgwMTYvYzQxNDI1YzEyM2Q1N2NmYWRhZDAxYzAwOGY3NTRhYjkiLCJ0
+        aW1lIjoiMjAxNy0wNS0zMVQxNjoxOToxOC4wMiswMzowMCIsIm1hcmtldFVy
+        bCI6Imh0dHBzOi8vbWFya2V0LnlhbmRleC5ydT9wcD0xMDAxJmNsaWQ9MjI5
+        ODM4MCZkaXN0cl90eXBlPTcifSwicmVnaW9ucyI6W3siaWQiOjEsIm5hbWUi
+        OiLQnNC+0YHQutCy0LAg0Lgg0JzQvtGB0LrQvtCy0YHQutCw0Y8g0L7QsdC7
+        0LDRgdGC0YwiLCJ0eXBlIjoiU1VCSkVDVF9GRURFUkFUSU9OIiwiY2hpbGRD
+        b3VudCI6NzEsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7RgdGB
+        0LjRjyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fSx7Imlk
+        Ijo0MTMsIm5hbWUiOiLQlNGA0YPQs9C40LUg0LPQvtGA0L7QtNCwINGA0LXQ
+        s9C40L7QvdCwIiwidHlwZSI6Ik9USEVSIiwiY2hpbGRDb3VudCI6MCwiY291
+        bnRyeSI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQvtGB0YHQuNGPIiwidHlwZSI6
+        IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMX19LHsiaWQiOjQxNCwibmFtZSI6
+        ItCj0L3QuNCy0LXRgNGB0LDQu9GM0L3QvtC1IiwidHlwZSI6Ik9USEVSIiwi
+        Y2hpbGRDb3VudCI6MCwiY291bnRyeSI6eyJpZCI6MjI1LCJuYW1lIjoi0KDQ
+        vtGB0YHQuNGPIiwidHlwZSI6IkNPVU5UUlkiLCJjaGlsZENvdW50IjoxMX19
+        LHsiaWQiOjEwNjQ1LCJuYW1lIjoi0JHQtdC70LPQvtGA0L7QtNGB0LrQsNGP
+        INC+0LHQu9Cw0YHRgtGMIiwidHlwZSI6IlNVQkpFQ1RfRkVERVJBVElPTiIs
+        ImNoaWxkQ291bnQiOjIyLCJjb3VudHJ5Ijp7ImlkIjoyMjUsIm5hbWUiOiLQ
+        oNC+0YHRgdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjEx
+        fX0seyJpZCI6MTA2NTAsIm5hbWUiOiLQkdGA0Y/QvdGB0LrQsNGPINC+0LHQ
+        u9Cw0YHRgtGMIiwidHlwZSI6IlNVQkpFQ1RfRkVERVJBVElPTiIsImNoaWxk
+        Q291bnQiOjM1LCJjb3VudHJ5Ijp7ImlkIjoyMjUsIm5hbWUiOiLQoNC+0YHR
+        gdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjExfX0seyJp
+        ZCI6MTA2NTgsIm5hbWUiOiLQktC70LDQtNC40LzQuNGA0YHQutCw0Y8g0L7Q
+        sdC70LDRgdGC0YwiLCJ0eXBlIjoiU1VCSkVDVF9GRURFUkFUSU9OIiwiY2hp
+        bGRDb3VudCI6MjMsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7R
+        gdGB0LjRjyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fSx7
+        ImlkIjoxMDY3MiwibmFtZSI6ItCS0L7RgNC+0L3QtdC20YHQutCw0Y8g0L7Q
+        sdC70LDRgdGC0YwiLCJ0eXBlIjoiU1VCSkVDVF9GRURFUkFUSU9OIiwiY2hp
+        bGRDb3VudCI6MzYsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7R
+        gdGB0LjRjyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fSx7
+        ImlkIjoxMDY4NywibmFtZSI6ItCY0LLQsNC90L7QstGB0LrQsNGPINC+0LHQ
+        u9Cw0YHRgtGMIiwidHlwZSI6IlNVQkpFQ1RfRkVERVJBVElPTiIsImNoaWxk
+        Q291bnQiOjI5LCJjb3VudHJ5Ijp7ImlkIjoyMjUsIm5hbWUiOiLQoNC+0YHR
+        gdC40Y8iLCJ0eXBlIjoiQ09VTlRSWSIsImNoaWxkQ291bnQiOjExfX0seyJp
+        ZCI6MTA2OTMsIm5hbWUiOiLQmtCw0LvRg9C20YHQutCw0Y8g0L7QsdC70LDR
+        gdGC0YwiLCJ0eXBlIjoiU1VCSkVDVF9GRURFUkFUSU9OIiwiY2hpbGRDb3Vu
+        dCI6MjgsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7RgdGB0LjR
+        jyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fSx7ImlkIjox
+        MDY5OSwibmFtZSI6ItCa0L7RgdGC0YDQvtC80YHQutCw0Y8g0L7QsdC70LDR
+        gdGC0YwiLCJ0eXBlIjoiU1VCSkVDVF9GRURFUkFUSU9OIiwiY2hpbGRDb3Vu
+        dCI6MzIsImNvdW50cnkiOnsiaWQiOjIyNSwibmFtZSI6ItCg0L7RgdGB0LjR
+        jyIsInR5cGUiOiJDT1VOVFJZIiwiY2hpbGRDb3VudCI6MTF9fV19
+    http_version: 
+  recorded_at: Wed, 31 May 2017 13:19:18 GMT
+recorded_with: VCR 3.0.3

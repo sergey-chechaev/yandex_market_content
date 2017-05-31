@@ -24,8 +24,7 @@ module Yandex
       private
 
       def request(method, path, data)
-        response = call.send(method) do |req|
-          req.url path
+        response = call.send(method, path, data) do |req|
           req.headers['Content-Type'] = 'application/json'
           req.headers['Authorization'] = authorization_token(data)
         end
