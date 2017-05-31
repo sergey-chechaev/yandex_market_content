@@ -1,7 +1,10 @@
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
 require "yandex-market-content"
 require 'vcr'
+require 'coveralls'
 require 'webmock/rspec'
+
+Coveralls.wear!
 
 VCR.configure do |c|
   c.cassette_library_dir = 'spec/cassettes'
