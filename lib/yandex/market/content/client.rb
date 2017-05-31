@@ -1,5 +1,6 @@
 require 'yandex/market/content/connection'
 require 'yandex/market/client/regions'
+require 'yandex/market/content/regions'
 
 module Yandex
   module Market
