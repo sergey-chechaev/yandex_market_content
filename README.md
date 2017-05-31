@@ -38,8 +38,7 @@ Make request
   client = Yandex::Market::Client.new(token: 'test') 
   result = client.regions(213)
   result.regions
-  # => {"status"=>"OK", "context"=> {"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-    ....
+  # => {"status"=>"OK", "context"=> {"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},....
   result.status
   # => "OK"
   result[:status]
