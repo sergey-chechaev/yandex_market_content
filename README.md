@@ -47,6 +47,8 @@ Make request
   # => "OK"
   result["status"]
   # => "OK"
+  result.regions.first.country.name
+  # => "Россия"
 ```
 
 
