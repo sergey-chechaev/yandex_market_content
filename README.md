@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sergey-chechaev/yandex_market_content.svg?branch=master)](https://travis-ci.org/sergey-chechaev/yandex_market_content)
+
 # YandexMarketContent
 
 Ruby gem для работы с контекстным Yandex API https://tech.yandex.ru/market/content-data/. Контентный API обеспечивает автоматизированное получение данных от сервиса Яндекс.Маркет. С помощью API внешние приложения могут получать сведения о моделях товаров, предложениях на них и магазинах, размещающихся на Яндекс.Маркете.
