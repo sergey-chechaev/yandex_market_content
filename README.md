@@ -52,9 +52,7 @@ Make request
   result.regions.first.country.name
   # => "Россия"
   client.regions_children(3, {page: 2})
-  # => {"status"=>"OK",
- "context"=>
-  {"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия","type"=>"COUNTRY", "childCount"=>11}},.....,"regions"=> [{"id"=>10705, "name"=>"Курская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>35, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},....]}
+  # => {"status"=>"OK","context"=>{"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия","type"=>"COUNTRY", "childCount"=>11}},.....,"regions"=> [{"id"=>10705, "name"=>"Курская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>35, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},....]}
 ```
 
 
