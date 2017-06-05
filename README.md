@@ -1,5 +1,6 @@
 [![Gem](https://img.shields.io/gem/v/yandex_market_content.svg?style=flat-square)](https://rubygems.org/gems/yandex_market_content)
 [![Build Status](https://travis-ci.org/sergey-chechaev/yandex_market_content.svg?branch=master)](https://travis-ci.org/sergey-chechaev/yandex_market_content)
+[![Coverage Status](https://coveralls.io/repos/github/sergey-chechaev/yandex_market_content/badge.svg?branch=master)](https://coveralls.io/github/sergey-chechaev/yandex_market_content?branch=master)
 
 # YandexMarketContent
 
