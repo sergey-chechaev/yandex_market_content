@@ -25,6 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
 
-  spec.add_runtime_dependency 'faraday', '~> 0.12.1'
+  spec.add_runtime_dependency 'faraday', ['>= 0.8', '< 0.12']
   spec.add_runtime_dependency 'hashie',     '>= 2.0'
 end
