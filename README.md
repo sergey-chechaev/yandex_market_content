@@ -54,22 +54,7 @@ Make request
   client.regions_children(3, {page: 2})
   # => {"status"=>"OK",
  "context"=>
-  {"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}}
-   "currency"=>{"id"=>"RUR", "name"=>"руб."},
-   "page"=>{"number"=>2, "count"=>9, "total"=>3},
-   "id"=>"1496680026151/332e31b81b10917461e6ff759910473f",
-   "time"=>"2017-06-05T19:27:06.154+03:00",
-   "marketUrl"=>"https://market.yandex.ru?pp=1001&clid=2298380&distr_type=7"},
- "regions"=>
-  [{"id"=>10705, "name"=>"Курская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>35, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10712, "name"=>"Липецкая область", "type"=>"SUBJECT_FEDERATION", "childCount"=>22, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10772, "name"=>"Орловская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>29, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10776, "name"=>"Рязанская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>31, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10795, "name"=>"Смоленская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>29, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10802, "name"=>"Тамбовская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>32, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10819, "name"=>"Тверская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>45, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10832, "name"=>"Тульская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>28, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},
-   {"id"=>10841, "name"=>"Ярославская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>22, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}}]}
+  {"region"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11, "country"=>{"id"=>225, "name"=>"Россия","type"=>"COUNTRY", "childCount"=>11}},.....,"regions"=> [{"id"=>10705, "name"=>"Курская область", "type"=>"SUBJECT_FEDERATION", "childCount"=>35, "country"=>{"id"=>225, "name"=>"Россия", "type"=>"COUNTRY", "childCount"=>11}},....]}
 ```
 
 
