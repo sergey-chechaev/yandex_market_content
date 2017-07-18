@@ -6,7 +6,7 @@ require 'yandex/market/content/version'
 Gem::Specification.new do |spec|
   spec.name          = "yandex_market_content"
   spec.version       = Yandex::Market::Content::VERSION
-  spec.authors       = ["Sergey Chechaev"]
+  spec.authors       = ["Sergey Chechaev", "Alexey Ovsov"]
   spec.email         = ["kompotdrinker@gmail.com"]
 
   spec.summary       = %q{Сontent Yandex API Ruby gem}
