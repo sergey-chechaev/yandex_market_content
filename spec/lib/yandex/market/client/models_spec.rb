@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'pry'
 
 describe Yandex::Market::Client::Models do
   let(:client) { Yandex::Market::Client.new(token: 'test') }

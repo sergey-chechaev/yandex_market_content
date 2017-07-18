@@ -5,6 +5,7 @@ require 'yandex/market/content/version'
 require 'yandex/market/content/configuration'
 require 'yandex/market/content/client'
 require 'yandex/market/content/errors/offer_argument_error'
+require 'yandex/market/content/errors/search_argument_error'
 
 module Yandex
   module Market
