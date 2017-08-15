@@ -27,7 +27,7 @@ Or install it yourself as:
 Configure gem credentials 
 
 ```ruby
- YandexMarketContent.configure do |config|
+ Yandex::Market::Content.configure do |config|
    config.authorization_token = 'authorization token'
  end
 ```
